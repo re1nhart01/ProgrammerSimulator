@@ -1,0 +1,201 @@
+#video-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background:black no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#video-bg > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transition: 1.0s;
+    z-index: 0;
+}
+
+@supports (object-fit: cover) {
+    #video-bg > video {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+    }
+}
+
+.button1 {
+    position: absolute;
+    left:50%;
+    top:60%;
+    color: white;
+    width: 200px;
+    height: 140px;
+    background: none;
+    border: 2px solid white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 999;
+}
+
+
+.button2 {
+    position: absolute;
+    left:26.5%;
+    top:60%;
+    color: white;
+    width: 200px;
+    height: 140px;
+    background: none;
+    border: 2px solid white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 999;
+}
+
+.p {
+    position: absolute;
+    left:25.2%;
+    top:40%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 29px;
+    z-index: 999;
+    color: white;
+    height: 70px;
+}
+
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.Stats {
+    width: 130px;
+    height: 160px;
+    background-color: black;
+    opacity: 0.6;
+    position:relative;
+    left: 0px;
+
+top: -13px;
+}
+
+.Stats  p {
+    color: white;
+    opacity: 1;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+
+.fader {
+    width:1920px;
+    height: 1080px;
+    z-index: 999;
+    background-color: black;
+}
+
+.button3 {
+    position: absolute;
+    left:6.5%;
+    top:60%;
+    color: black;
+    width: 200px;
+    height: 140px;
+
+    border: 2px solid black;
+    font-family: Montserrat;
+    background-color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 999;
+}
+
+.button4 {
+    position: absolute;
+    left:66.5%;
+    top:60%;
+    color: black;
+    width: 200px;
+    height: 140px;
+
+    border: 2px solid black;
+    font-family: Montserrat;
+    background-color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 999;
+}
+
+.btn1 {
+    border-color: black;
+    color: black;
+    background-color: white;
+
+
+}
+
+.btn2 {
+    border-color: black;
+    color: black;
+    background-color: white;
+
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+.button4:hover {
+    background-color: black;
+    color: white;
+}
+
+.button3:hover {
+    background-color: black;
+    color: white;
+}
+
+.pl {
+    left:32%;
+    border-bottom: 2px white solid;
+    color: white;
+
+}

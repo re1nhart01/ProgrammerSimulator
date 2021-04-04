@@ -1,0 +1,71 @@
+@mixin font-main {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+body {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  margin:auto;
+  padding:0px;
+  .container {
+    position: absolute;
+    left:15%;
+    top: 20%;
+    border: 2px solid white;
+    padding:30px;
+    background-color: black;
+    opacity: 0.8;
+    a {
+     display: flex;
+      align-items: center;
+      text-align: center;
+      opacity: 1;
+@include font-main;
+      color:white;
+      margin-bottom: 30px;
+      padding-left: 25px;
+      border: 2px solid white;
+
+
+    }
+    a:hover {
+      background-color: white;
+      color: black;
+    }
+    h1 {
+      @include font-main;
+      font-size: 94px;
+      color: white;
+      opacity: 1;
+    }
+    .main {
+      font-size: 54px;
+      border: none;
+      padding: 30px;
+      background: none;
+      border: none;
+      border: 2px solid black;
+      color: white;
+    }
+
+    .main:hover {
+      background-color: white;
+      color: black;
+
+    }
+
+  }
+}
+
+.mainmenu_bg {
+  width: 1920px;
+  height: 100%;
+  position:absolute;
+  left: 0;
+  top: 0;
+}

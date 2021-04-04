@@ -1,0 +1,62 @@
+.video-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-size: cover;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.input {
+    color: white;
+    background-color: #3C3F41;
+    width: 1150px;
+    height: 340px;
+    border: 1px black solid;
+    position: relative;
+    left: 36%;
+    top: 66%;
+    z-index: 999;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.compile_button {
+    color: white;
+    width: 200px;
+    height: 25px;
+    position: relative;
+    left: 25.5%;
+    top: 26.5%;
+    background-color:#3C3F41;
+    z-index: 10099;
+    border: none;
+}
+
+.compile_button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.language {
+    font-family: Montserrat;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    z-index: 999;
+    background-color: #3C3F41;
+    color: white;
+}
